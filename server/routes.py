@@ -4,7 +4,7 @@ from server.webapp import flaskapp, cursor
 from server.models import Book, User
 import logging
 import subprocess
-
+ 
 
 logging.basicConfig(filename="logs.log", filemode="w", level=logging.DEBUG)
 
